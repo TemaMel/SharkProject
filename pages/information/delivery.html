@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Акции</title>
+    <title>Доставка</title>
+
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
-
+    
     <div class="wrapper">
         <div class="panel">
             <div class="panel__hamburger" onclick="">
@@ -96,7 +97,6 @@
         </div>
     </div>
 
-
     <header class="header">
         <div class="container">
             <div class="header__city">
@@ -173,29 +173,72 @@
     </header>
 
     <main>
-        <div class="promotions">
-            <div class="container">
-                <div class="promotions__wrapper">
-                    <h2 class="promotions__title">
-                        Акции и скидки
-                        <span class="promotions__subtitle">
-                            Скидки, подарки, акции и промокоды не суммируются, и не распространяются на напитки и сеты.
-                        </span>
-                    </h2>
-                    <img src="../../img/promotions/coup.png" alt="coup1" class="promotions__coupon">
-                    <img src="../../img/promotions/coup2.png" alt="coup2" class="promotions__coupon">
-                    <div class="promotions__descr">
-                        <span>Счастливые часы 10%</span>
-                        Дарим скидку 10% по промокоду СЧ10 по будням с 13:00 до 16:00
-                        Минимальная сумма заказа 999 рублей
-                        Скидка 10% действует на всё меню ресторана доставки «Акула», кроме комбо-наборов 
-                        Акция не суммируется с другими акциями, подарками и промокодами
-                        Скидка 10% по акции не суммируется со скидкой за самовывоз
-                        Акция действует в будние дни с понедельника по пятницу с 13:00 до 16:00
-                        Акция не действует в праздничные дни
-                        Заказ, оформленный со скидкой по акции, можно получить не позднее 17:00
+        <div class="container">
+            <div class="delivery">
+                <h2 class="delivery__title">
+                    Условия доставки
+                </h2>
+                <span class="delivery__info">
+                    Время работы с 10:30 до 23:30
+                </span>
+                <div class="delivery__wrapper">
+                    <div class="delivery__item">
+                        <img src="../../img/delivery/рубль.png" alt="минимальный" class="delivery__item-img">
+                        <div class="delivery__item-info">
+                            Минимальный заказ
+                            <span>от 500 ₽</span>
+                        </div>
+                    </div>
+                    <div class="delivery__item">
+                        <img src="../../img/delivery/бесплатная.png" class="delivery__item-img" alt="бесплатная">
+                        <div class="delivery__item-info">
+                            Бесплатная доставка
+                            <span>от 600 ₽</span>
+                        </div>
+                    </div>
+                    <div class="delivery__item">
+                        <img src="../../img/delivery/доставка.png" class="delivery__item-img" alt="доставка">
+                        <div class="delivery__item-info">
+                            Доставка по городу
+                            <span>от 100 ₽</span>
+                        </div>
+                    </div>
+                    <div class="delivery__item">
+                        <img src="../../img/delivery/загород.png" class="delivery__item-img" alt="загород">
+                        <div class="delivery__item-info">
+                            Доставка за город
+                            <span>от 200 ₽</span>
+                        </div>
+                    </div>
+                    <div class="delivery__item">
+                        <img src="../../img/delivery/время.png" class="delivery__item-img" alt="время">
+                        <div class="delivery__item-info">
+                            Время доставки
+                            <span>от 55 минут*</span>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="conditions">
+                <div class="conditions__item">
+                    <img src="../../img/delivery/холодно.png" alt="холодно" class="conditions__item-img">
+                    <p class="conditions__item-descr">
+                        При температуре воздуха от -30 до -34 градусов
+                        <span>стоимость доставки 50 рублей</span>
+                    </p>
+                </div>
+                <div class="conditions__item">
+                    <img src="../../img/delivery/холодно.png" alt="холодно" class="conditions__item-img">
+                    <p class="conditions__item-descr">
+                        При температуре воздуха от -35 до -40 градусов
+                        <span>стоимость доставки 100 рублей</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="delivery-map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A292762bb542ebaaac65b2d0ca12ca46b5571663542fe97985c38dc403e66272a&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
             </div>
         </div>
     </main>
@@ -241,5 +284,6 @@
 
 
     <script src="../../js/script.js"></script>
+
 </body>
 </html>
