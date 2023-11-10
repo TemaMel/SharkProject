@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контакты</title>
+    <title>Пицца</title>
 
     <link rel="stylesheet" href="../../css/style.css">
 </head>
@@ -87,13 +87,11 @@
         <h2 class="basket__title">Ваша корзина</h2>
         <div class="basket__empty">Пусто<img src="../../img/basket/пусто.png" alt="пусто"></div>
         <div class="basket__wrapper">
-            <div class="basket__item">
-                
-            </div>
+            
         </div>
         <div class="basket__finish">
             <div class="basket__finish-delivery">Доставка: <span>Бесплатно</span></div>
-            <div class="basket__finish-price">Итого: <span>0 р</span></div>
+            <div class="basket__finish-price">0Р</div>
         </div>
     </div>
 
@@ -109,16 +107,16 @@
                     </div>
                     <ul class="header__list">
                         <li>
-                            <a href="promotions.html">Акции</a>
+                            <a href="../information/promotions.html">Акции</a>
                         </li>
                         <li>
-                            <a href="aboutUs.html">О нас</a>
+                            <a href="../information/aboutUs.html">О нас</a>
                         </li>
                         <li>
-                            <a href="delivery.html">Доставка</a>
+                            <a href="../information/delivery.html">Доставка</a>
                         </li>
                         <li>
-                            <a href="contacts.html">Контакты</a>
+                            <a href="../information/contacts.html">Контакты</a>
                         </li>
                     </ul>
                     <div class="header__info">
@@ -135,27 +133,27 @@
                     </div>
                 </nav>
                 <div class="header__menu">
-                    <a href="../menu/combo.html" class="header__menu-item">
+                    <a href="combo.html" class="header__menu-item">
                         <img src="../../img/header/menu/огонь.png" alt="Комбо-наборы">
                         Комбо-наборы
                     </a>
-                    <a href="../menu/pizza.html" class="header__menu-item">
+                    <a href="pizza.html" class="header__menu-item">
                         <img src="../../img/header/menu/пицца.png" alt="Пицца">
                         Пицца
                     </a>
-                    <a href="../menu/rolls.html" class="header__menu-item">
+                    <a href="rolls.html" class="header__menu-item">
                         <img src="../../img/header/menu/роллы.png" alt="Роллы">
                         Роллы
                     </a>
-                    <a href="../menu/sush.html" class="header__menu-item">
+                    <a href="sush.html" class="header__menu-item">
                         <img src="../../img/header/menu/суши.png" alt="Суши">
                         Суши
                     </a>
-                    <a href="../menu/sets.html" class="header__menu-item">
+                    <a href="sets.html" class="header__menu-item">
                         <img src="../../img/header/menu/сеты.png" alt="Сеты">
                         Сеты
                     </a>
-                    <a href="../menu/beverages.html" class="header__menu-item">
+                    <a href="beverages.html" class="header__menu-item">
                         <img src="../../img/header/menu/напитки.png" alt="напитки">
                         Напитки
                     </a>
@@ -173,30 +171,106 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="contacts">
-                <h2 class="contacts__title">
-                    Контакты
-                </h2>
-                <span class="contacts__info">
-                    Время работы с 10:30 до 22:30
-                </span>
-                <div class="contacts__wrapper">
-                    <div class="contacts__item">
-                        <img src="../../img/contacts/адрес.png" alt="адрес">
-                        <span>г.Санкт-Петербург</span>
+        <div class="product">
+            <div class="container">
+                <h2 class="title">Пицца</h2>
+                <div class="product__wrapper">
+                    <div class="product__item" data-id="01">
+                        <img src="../../img/menu/pizza/pizza1.webp" alt="pizza1" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">4 Сыра</h3>
+                            <span class="product__item-descr">
+                                Тесто, томатный соус, сыр Моцарелла, сыр Чеддер, сыр Дорблю, сыр Пармезан, 35см
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">729 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contacts__item">
-                        <img src="../../img/contacts/телефон.png" alt="телефон">
-                        <a href="tel:8902132****">+7(902)132-**-**</a>
+                    <div class="product__item" data-id="02">
+                        <img src="../../img/menu/pizza/pizza2.webp" alt="pizza2" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Пепперони</h3>
+                            <span class="product__item-descr">
+                                Тесто, томатный соус, сыр Моцарелла, колбаски из говядины, 35см
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">749 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contacts__item">
-                        <img src="../../img/contacts/почта.png" alt="почта">
-                        <a href="#">temameleh@yandex.ru</a>
+                    <div class="product__item" data-id="03">
+                        <img src="../../img/menu/pizza/pizza3.webp" alt="pizza3" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Цезарь</h3>
+                            <span class="product__item-descr">
+                                Тесто, нежная курочка, сыр моцарелла, листы салата, помидоры черри, соус цезарь, 35см
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">699 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="contacts-map">
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A292762bb542ebaaac65b2d0ca12ca46b5571663542fe97985c38dc403e66272a&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                    <div class="product__item" data-id="04">
+                        <img src="../../img/menu/pizza/pizza4.webp" alt="pizza4" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Гавайская</h3>
+                            <span class="product__item-descr">
+                                Тесто, томатный соус, сыр моцарелла, цыпленок, ананасы консервированные, 35см
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">729 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__item" data-id="05">
+                        <img src="../../img/menu/pizza/pizza5.webp" alt="pizza5" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Маргарита</h3>
+                            <span class="product__item-descr">
+                                Тесто, томатный соус, сыр Моцарелла, томаты, 35см
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">439 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__item" data-id="06">
+                        <img src="../../img/menu/pizza/pizza6.webp" alt="pizza6" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Цыпленок барбекю</h3>
+                            <span class="product__item-descr">
+                                Тесто, томатный соус,сыр моцарелла, цыпленок, перец болгарский, соус барбекю, 35см
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">649 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -243,6 +317,6 @@
 
 
     <script src="../../js/pages.js"></script>
-    
+
 </body>
 </html>

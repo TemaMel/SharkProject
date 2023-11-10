@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контакты</title>
+    <title>Суши</title>
 
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
-
     <div class="wrapper">
         <div class="panel">
             <div class="panel__hamburger" onclick="">
@@ -87,13 +86,11 @@
         <h2 class="basket__title">Ваша корзина</h2>
         <div class="basket__empty">Пусто<img src="../../img/basket/пусто.png" alt="пусто"></div>
         <div class="basket__wrapper">
-            <div class="basket__item">
-                
-            </div>
+            
         </div>
         <div class="basket__finish">
             <div class="basket__finish-delivery">Доставка: <span>Бесплатно</span></div>
-            <div class="basket__finish-price">Итого: <span>0 р</span></div>
+            <div class="basket__finish-price">0Р</div>
         </div>
     </div>
 
@@ -109,16 +106,16 @@
                     </div>
                     <ul class="header__list">
                         <li>
-                            <a href="promotions.html">Акции</a>
+                            <a href="../information/promotions.html">Акции</a>
                         </li>
                         <li>
-                            <a href="aboutUs.html">О нас</a>
+                            <a href="../information/aboutUs.html">О нас</a>
                         </li>
                         <li>
-                            <a href="delivery.html">Доставка</a>
+                            <a href="../information/delivery.html">Доставка</a>
                         </li>
                         <li>
-                            <a href="contacts.html">Контакты</a>
+                            <a href="../information/contacts.html">Контакты</a>
                         </li>
                     </ul>
                     <div class="header__info">
@@ -135,27 +132,27 @@
                     </div>
                 </nav>
                 <div class="header__menu">
-                    <a href="../menu/combo.html" class="header__menu-item">
+                    <a href="combo.html" class="header__menu-item">
                         <img src="../../img/header/menu/огонь.png" alt="Комбо-наборы">
                         Комбо-наборы
                     </a>
-                    <a href="../menu/pizza.html" class="header__menu-item">
+                    <a href="pizza.html" class="header__menu-item">
                         <img src="../../img/header/menu/пицца.png" alt="Пицца">
                         Пицца
                     </a>
-                    <a href="../menu/rolls.html" class="header__menu-item">
+                    <a href="rolls.html" class="header__menu-item">
                         <img src="../../img/header/menu/роллы.png" alt="Роллы">
                         Роллы
                     </a>
-                    <a href="../menu/sush.html" class="header__menu-item">
+                    <a href="sush.html" class="header__menu-item">
                         <img src="../../img/header/menu/суши.png" alt="Суши">
                         Суши
                     </a>
-                    <a href="../menu/sets.html" class="header__menu-item">
+                    <a href="sets.html" class="header__menu-item">
                         <img src="../../img/header/menu/сеты.png" alt="Сеты">
                         Сеты
                     </a>
-                    <a href="../menu/beverages.html" class="header__menu-item">
+                    <a href="beverages.html" class="header__menu-item">
                         <img src="../../img/header/menu/напитки.png" alt="напитки">
                         Напитки
                     </a>
@@ -173,30 +170,106 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="contacts">
-                <h2 class="contacts__title">
-                    Контакты
-                </h2>
-                <span class="contacts__info">
-                    Время работы с 10:30 до 22:30
-                </span>
-                <div class="contacts__wrapper">
-                    <div class="contacts__item">
-                        <img src="../../img/contacts/адрес.png" alt="адрес">
-                        <span>г.Санкт-Петербург</span>
+        <div class="product">
+            <div class="container">
+                <h2 class="title">Суши</h2>
+                <div class="product__wrapper">
+                    <div class="product__item" data-id="01">
+                        <img src="../../img/menu/sushi/sushi1.webp" alt="sushi1" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Суши Креветка</h3>
+                            <span class="product__item-descr">
+                                Нори, рис, креветка
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">125 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contacts__item">
-                        <img src="../../img/contacts/телефон.png" alt="телефон">
-                        <a href="tel:8902132****">+7(902)132-**-**</a>
+                    <div class="product__item" data-id="02">
+                        <img src="../../img/menu/sushi/sushi2.webp" alt="sushi2" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Суши Лосось</h3>
+                            <span class="product__item-descr">
+                                Рис, лосось
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">125 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contacts__item">
-                        <img src="../../img/contacts/почта.png" alt="почта">
-                        <a href="#">temameleh@yandex.ru</a>
+                    <div class="product__item" data-id="03">
+                        <img src="../../img/menu/sushi/sushi3.webp" alt="sushi3" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Суши Угорь</h3>
+                            <span class="product__item-descr">
+                                Нори, рис, угорь, кунжут, унаги соус
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">149 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="contacts-map">
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A292762bb542ebaaac65b2d0ca12ca46b5571663542fe97985c38dc403e66272a&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                    <div class="product__item" data-id="04">
+                        <img src="../../img/menu/sushi/sushi4.webp" alt="sushi4" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Суши Чука</h3>
+                            <span class="product__item-descr">
+                                Нори, рис, чука салат, кунжут, ореховый соус
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">99 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__item" data-id="05">
+                        <img src="../../img/menu/sushi/sushi5.webp" alt="sushi5" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Суши Спайси</h3>
+                            <span class="product__item-descr">
+                                Нори, рис, лосось, спайси соус
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">119 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__item" data-id="06">
+                        <img src="../../img/menu/sushi/sushi6.webp" alt="sushi6" class="product__item-img">
+                        <div class="product__item-info">
+                            <h3 class="title title_fz18 product__title">Суши Крем-Лосось</h3>
+                            <span class="product__item-descr">
+                                Лосось, сыр сливочный, рис, нори
+                            </span>
+                            <div class="product__item-wrapper">
+                                <span class="product__item-price">129 ₽</span>
+                                <button class="product__item-btn" onclick="" data-cart>
+                                    <img src="../../img/menu/combo/нравится.png" alt="равится">
+                                    Заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -243,6 +316,5 @@
 
 
     <script src="../../js/pages.js"></script>
-    
 </body>
 </html>
